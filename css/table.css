@@ -1,0 +1,42 @@
+table {
+    width: 100%;
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse;
+
+    overflow: scroll;
+}
+
+thead {
+    position: sticky;
+    top: 70px;
+
+    background-color: var(--accent-color);
+}
+
+table thead tr {
+    color: var(--table-thead__font);
+}
+
+table thead tr th {
+    font-weight: 700;
+}
+
+th, td {
+    max-width: 200px;
+    width: min-content;
+}
+
+table tbody tr td,
+table thead tr th {
+    font-size: 1rem;
+    text-align: center;
+
+    padding: .75rem 0;
+}
+
+table tbody tr {
+    border-bottom-width: 1px;
+    border-color: #666;
+    background: var(--table-row__back);
+}

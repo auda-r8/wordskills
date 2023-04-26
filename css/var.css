@@ -1,7 +1,12 @@
 :root {
     --accent-color: #6c8ccd;
     --title-color: #333;
-    --desc-color: #777;
+    --desc-color: #666;
 
     --body-background: #f2f2f2;
+    --color-table-row: #ccc;
+
+    --table-row__back: #ddd;
+    --table-thead__back: var(--accent-color);
+    --table-thead__font: #ddd;
 }
